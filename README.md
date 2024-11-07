@@ -17,7 +17,7 @@ This project is related to offering discounts to customers based on the total pr
 
 
 
-4.Test the api http://<<hostname>>:9001/promotion/item-discount?userId=333&itemId=222
+4.Test the api http://[hostname]:9001/promotion/item-discount?userId=333&itemId=222
 
 
 
