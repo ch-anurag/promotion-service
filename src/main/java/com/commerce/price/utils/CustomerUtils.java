@@ -2,11 +2,14 @@ package com.commerce.price.utils;
 
 import com.commerce.price.constants.PromotionConstants;
 import com.commerce.price.entity.Customer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class CustomerUtils {
+    private static final Logger logger = LoggerFactory.getLogger(CustomerUtils.class);
     private static final Map<String, Customer> customerDataMap = new HashMap<String, Customer>();
 
     static {
@@ -21,6 +24,7 @@ public class CustomerUtils {
     }
 
       public static Customer getCustomerItem(String CustomerId) {
+        logger.info("Executing getCustomerItem for customer id "+CustomerId);
         return customerDataMap.get(CustomerId);
 
     }
