@@ -119,6 +119,7 @@ curl --location 'http://[hostname]:9001/promotion/apply-discount' \
 **UML Diagram**
 
 
+![promotion-service](https://github.com/user-attachments/assets/28a787e6-c11a-4f2f-b5be-f509a29e7014)
 
 
 
