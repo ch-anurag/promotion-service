@@ -1,0 +1,959 @@
+2024-11-08 17:48:43 - Starting PromotionServiceApplication using Java 17.0.12 with PID 17600 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 17:48:43 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 17:48:43 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 17:48:43 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 17:48:44 - Tomcat initialized with port 9001 (http)
+2024-11-08 17:48:44 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 17:48:44 - Starting service [Tomcat]
+2024-11-08 17:48:44 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 17:48:44 - Initializing Spring embedded WebApplicationContext
+2024-11-08 17:48:44 - Root WebApplicationContext: initialization completed in 1038 ms
+2024-11-08 17:48:44 - LiveReload server is running on port 35729
+2024-11-08 17:48:44 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 17:48:44 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 17:48:44 - Started PromotionServiceApplication in 1.799 seconds (process running for 2.319)
+2024-11-08 17:48:55 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 17:48:55 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 17:48:55 - Completed initialization in 0 ms
+2024-11-08 17:48:55 - Received order : {0}
+2024-11-08 17:51:46 - Starting PromotionServiceApplication using Java 17.0.12 with PID 17724 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 17:51:46 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 17:51:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 17:51:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 17:51:47 - Tomcat initialized with port 9001 (http)
+2024-11-08 17:51:47 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 17:51:47 - Starting service [Tomcat]
+2024-11-08 17:51:47 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 17:51:47 - Initializing Spring embedded WebApplicationContext
+2024-11-08 17:51:47 - Root WebApplicationContext: initialization completed in 1156 ms
+2024-11-08 17:51:48 - LiveReload server is running on port 35729
+2024-11-08 17:51:48 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 17:51:48 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 17:51:48 - Started PromotionServiceApplication in 1.92 seconds (process running for 2.492)
+2024-11-08 17:51:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 17:51:54 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 17:51:54 - Completed initialization in 0 ms
+2024-11-08 17:51:54 - Received order for discount :O1001
+2024-11-08 19:27:40 - Starting PromotionServiceApplication using Java 17.0.12 with PID 15368 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 19:27:40 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 19:27:40 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 19:27:40 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 19:27:42 - Tomcat initialized with port 9001 (http)
+2024-11-08 19:27:42 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 19:27:42 - Starting service [Tomcat]
+2024-11-08 19:27:42 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 19:27:42 - Initializing Spring embedded WebApplicationContext
+2024-11-08 19:27:42 - Root WebApplicationContext: initialization completed in 1311 ms
+2024-11-08 19:27:42 - LiveReload server is running on port 35729
+2024-11-08 19:27:42 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 19:27:42 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 19:27:42 - Started PromotionServiceApplication in 2.02 seconds (process running for 3.596)
+2024-11-08 19:27:47 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 19:27:47 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 19:27:47 - Completed initialization in 2 ms
+2024-11-08 19:27:47 - Received order for discount :O1001
+2024-11-08 19:29:26 - Received order for discount :O1001
+2024-11-08 20:10:54 - Starting PromotionServiceApplication using Java 17.0.12 with PID 15284 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 20:10:54 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 20:10:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 20:10:54 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 20:10:57 - Tomcat initialized with port 9001 (http)
+2024-11-08 20:10:57 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:10:57 - Starting service [Tomcat]
+2024-11-08 20:10:57 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 20:10:57 - Initializing Spring embedded WebApplicationContext
+2024-11-08 20:10:57 - Root WebApplicationContext: initialization completed in 2556 ms
+2024-11-08 20:10:58 - LiveReload server is running on port 35729
+2024-11-08 20:10:58 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:10:58 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 20:10:58 - Started PromotionServiceApplication in 3.923 seconds (process running for 4.881)
+2024-11-08 20:11:04 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 20:11:04 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 20:11:04 - Completed initialization in 1 ms
+2024-11-08 20:11:04 - Received order for discount :O1001
+2024-11-08 20:13:15 - Starting PromotionServiceApplication using Java 17.0.12 with PID 27252 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 20:13:15 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 20:13:15 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 20:13:15 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 20:13:17 - Tomcat initialized with port 9001 (http)
+2024-11-08 20:13:17 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:13:17 - Starting service [Tomcat]
+2024-11-08 20:13:17 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 20:13:17 - Initializing Spring embedded WebApplicationContext
+2024-11-08 20:13:17 - Root WebApplicationContext: initialization completed in 2198 ms
+2024-11-08 20:13:18 - LiveReload server is running on port 35729
+2024-11-08 20:13:18 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:13:19 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 20:13:19 - Started PromotionServiceApplication in 4.033 seconds (process running for 4.893)
+2024-11-08 20:13:59 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 20:13:59 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 20:13:59 - Completed initialization in 2 ms
+2024-11-08 20:13:59 - Received order for discount :O1001
+2024-11-08 20:49:53 - Starting PromotionServiceApplication using Java 17.0.12 with PID 17804 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 20:49:53 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 20:49:53 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 20:49:53 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 20:49:55 - Tomcat initialized with port 9001 (http)
+2024-11-08 20:49:55 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:49:55 - Starting service [Tomcat]
+2024-11-08 20:49:55 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 20:49:55 - Initializing Spring embedded WebApplicationContext
+2024-11-08 20:49:55 - Root WebApplicationContext: initialization completed in 2065 ms
+2024-11-08 20:49:56 - LiveReload server is running on port 35729
+2024-11-08 20:49:56 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:49:56 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 20:49:56 - Started PromotionServiceApplication in 3.441 seconds (process running for 4.434)
+2024-11-08 20:50:05 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 20:50:05 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 20:50:05 - Completed initialization in 1 ms
+2024-11-08 20:50:05 - Received order for discount :O1001
+2024-11-08 20:50:05 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null
+	at com.commerce.promotion.service.CustomerPromotion.applyPromotion(CustomerPromotion.java:18)
+	at com.commerce.promotion.service.OrderDiscountServiceImpl.calculateOrderDiscount(OrderDiscountServiceImpl.java:16)
+	at com.commerce.promotion.controller.OrderDiscountController.applyOrderDiscount(OrderDiscountController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-08 20:50:15 - Received order for discount :O1001
+2024-11-08 20:50:15 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null
+	at com.commerce.promotion.service.CustomerPromotion.applyPromotion(CustomerPromotion.java:18)
+	at com.commerce.promotion.service.OrderDiscountServiceImpl.calculateOrderDiscount(OrderDiscountServiceImpl.java:16)
+	at com.commerce.promotion.controller.OrderDiscountController.applyOrderDiscount(OrderDiscountController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-08 20:51:31 - Starting PromotionServiceApplication using Java 17.0.12 with PID 900 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 20:51:31 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 20:51:31 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 20:51:31 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 20:51:33 - Tomcat initialized with port 9001 (http)
+2024-11-08 20:51:33 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:51:33 - Starting service [Tomcat]
+2024-11-08 20:51:33 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 20:51:33 - Initializing Spring embedded WebApplicationContext
+2024-11-08 20:51:33 - Root WebApplicationContext: initialization completed in 2064 ms
+2024-11-08 20:51:34 - LiveReload server is running on port 35729
+2024-11-08 20:51:34 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:51:34 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 20:51:34 - Started PromotionServiceApplication in 3.367 seconds (process running for 4.346)
+2024-11-08 20:51:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 20:51:54 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 20:51:54 - Completed initialization in 1 ms
+2024-11-08 20:51:54 - Received order for discount :O1001
+2024-11-08 20:51:54 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null
+	at com.commerce.promotion.service.CustomerPromotion.applyPromotion(CustomerPromotion.java:19)
+	at com.commerce.promotion.service.OrderDiscountServiceImpl.calculateOrderDiscount(OrderDiscountServiceImpl.java:16)
+	at com.commerce.promotion.controller.OrderDiscountController.applyOrderDiscount(OrderDiscountController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-08 20:51:57 - Received order for discount :O1001
+2024-11-08 20:51:57 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null
+	at com.commerce.promotion.service.CustomerPromotion.applyPromotion(CustomerPromotion.java:19)
+	at com.commerce.promotion.service.OrderDiscountServiceImpl.calculateOrderDiscount(OrderDiscountServiceImpl.java:16)
+	at com.commerce.promotion.controller.OrderDiscountController.applyOrderDiscount(OrderDiscountController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-08 20:53:12 - Starting PromotionServiceApplication using Java 17.0.12 with PID 13092 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 20:53:12 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 20:53:12 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 20:53:12 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 20:53:13 - Tomcat initialized with port 9001 (http)
+2024-11-08 20:53:13 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:53:13 - Starting service [Tomcat]
+2024-11-08 20:53:13 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 20:53:14 - Initializing Spring embedded WebApplicationContext
+2024-11-08 20:53:14 - Root WebApplicationContext: initialization completed in 1916 ms
+2024-11-08 20:53:14 - LiveReload server is running on port 35729
+2024-11-08 20:53:14 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:53:14 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 20:53:14 - Started PromotionServiceApplication in 3.452 seconds (process running for 4.337)
+2024-11-08 20:53:22 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 20:53:22 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 20:53:22 - Completed initialization in 1 ms
+2024-11-08 20:53:22 - Received order for discount :O1001
+2024-11-08 20:53:22 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null
+	at com.commerce.promotion.service.CustomerPromotion.applyPromotion(CustomerPromotion.java:19)
+	at com.commerce.promotion.service.OrderDiscountServiceImpl.calculateOrderDiscount(OrderDiscountServiceImpl.java:16)
+	at com.commerce.promotion.controller.OrderDiscountController.applyOrderDiscount(OrderDiscountController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-08 20:54:46 - Starting PromotionServiceApplication using Java 17.0.12 with PID 26464 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 20:54:46 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 20:54:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 20:54:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 20:54:48 - Tomcat initialized with port 9001 (http)
+2024-11-08 20:54:48 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:54:48 - Starting service [Tomcat]
+2024-11-08 20:54:48 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 20:54:48 - Initializing Spring embedded WebApplicationContext
+2024-11-08 20:54:48 - Root WebApplicationContext: initialization completed in 2122 ms
+2024-11-08 20:54:49 - LiveReload server is running on port 35729
+2024-11-08 20:54:49 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:54:49 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 20:54:49 - Started PromotionServiceApplication in 3.48 seconds (process running for 4.318)
+2024-11-08 20:54:50 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 20:54:50 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 20:54:50 - Completed initialization in 1 ms
+2024-11-08 20:54:50 - Received order for discount :O1001
+2024-11-08 20:54:51 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null
+	at com.commerce.promotion.service.CustomerPromotion.applyPromotion(CustomerPromotion.java:21)
+	at com.commerce.promotion.service.OrderDiscountServiceImpl.calculateOrderDiscount(OrderDiscountServiceImpl.java:16)
+	at com.commerce.promotion.controller.OrderDiscountController.applyOrderDiscount(OrderDiscountController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-08 20:54:57 - Received order for discount :O1001
+2024-11-08 20:54:57 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null
+	at com.commerce.promotion.service.CustomerPromotion.applyPromotion(CustomerPromotion.java:21)
+	at com.commerce.promotion.service.OrderDiscountServiceImpl.calculateOrderDiscount(OrderDiscountServiceImpl.java:16)
+	at com.commerce.promotion.controller.OrderDiscountController.applyOrderDiscount(OrderDiscountController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-08 20:55:12 - Starting PromotionServiceApplication using Java 17.0.12 with PID 9904 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 20:55:12 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 20:55:12 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 20:55:12 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 20:55:14 - Tomcat initialized with port 9001 (http)
+2024-11-08 20:55:14 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:55:14 - Starting service [Tomcat]
+2024-11-08 20:55:14 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 20:55:14 - Initializing Spring embedded WebApplicationContext
+2024-11-08 20:55:14 - Root WebApplicationContext: initialization completed in 1893 ms
+2024-11-08 20:55:14 - LiveReload server is running on port 35729
+2024-11-08 20:55:14 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 20:55:14 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 20:55:14 - Started PromotionServiceApplication in 3.167 seconds (process running for 4.007)
+2024-11-08 20:55:31 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 20:55:31 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 20:55:31 - Completed initialization in 1 ms
+2024-11-08 20:55:31 - Received order for discount :O1001
+2024-11-08 20:55:31 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.commerce.promotion.service.CustomerService.getCustomerItem(String)" because "this.customerService" is null
+	at com.commerce.promotion.service.CustomerPromotion.applyPromotion(CustomerPromotion.java:21)
+	at com.commerce.promotion.service.OrderDiscountServiceImpl.calculateOrderDiscount(OrderDiscountServiceImpl.java:16)
+	at com.commerce.promotion.controller.OrderDiscountController.applyOrderDiscount(OrderDiscountController.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-11-08 21:05:38 - Starting PromotionServiceApplication using Java 17.0.12 with PID 21072 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 21:05:38 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 21:05:38 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 21:05:38 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 21:05:40 - Tomcat initialized with port 9001 (http)
+2024-11-08 21:05:40 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:05:40 - Starting service [Tomcat]
+2024-11-08 21:05:40 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 21:05:40 - Initializing Spring embedded WebApplicationContext
+2024-11-08 21:05:40 - Root WebApplicationContext: initialization completed in 1843 ms
+2024-11-08 21:05:40 - LiveReload server is running on port 35729
+2024-11-08 21:05:41 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:05:41 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 21:05:41 - Started PromotionServiceApplication in 3.144 seconds (process running for 3.979)
+2024-11-08 21:05:54 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 21:05:54 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 21:05:54 - Completed initialization in 1 ms
+2024-11-08 21:05:54 - Received order for discount :O1001
+2024-11-08 21:23:50 - Starting PromotionServiceApplication using Java 17.0.12 with PID 10316 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 21:23:50 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 21:23:50 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 21:23:50 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 21:23:52 - Tomcat initialized with port 9001 (http)
+2024-11-08 21:23:52 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:23:52 - Starting service [Tomcat]
+2024-11-08 21:23:52 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 21:23:52 - Initializing Spring embedded WebApplicationContext
+2024-11-08 21:23:52 - Root WebApplicationContext: initialization completed in 1966 ms
+2024-11-08 21:23:53 - LiveReload server is running on port 35729
+2024-11-08 21:23:53 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:23:53 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 21:23:53 - Started PromotionServiceApplication in 3.457 seconds (process running for 4.443)
+2024-11-08 21:24:04 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 21:24:04 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 21:24:04 - Completed initialization in 1 ms
+2024-11-08 21:24:04 - Received order for discount :O1001
+2024-11-08 21:38:22 - Starting PromotionServiceApplication using Java 17.0.12 with PID 13864 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 21:38:22 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 21:38:22 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 21:38:22 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 21:38:24 - Tomcat initialized with port 9001 (http)
+2024-11-08 21:38:24 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:38:24 - Starting service [Tomcat]
+2024-11-08 21:38:24 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 21:38:24 - Initializing Spring embedded WebApplicationContext
+2024-11-08 21:38:24 - Root WebApplicationContext: initialization completed in 2007 ms
+2024-11-08 21:38:24 - LiveReload server is running on port 35729
+2024-11-08 21:38:25 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:38:25 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 21:38:25 - Started PromotionServiceApplication in 3.361 seconds (process running for 4.329)
+2024-11-08 21:38:29 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 21:38:29 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 21:38:29 - Completed initialization in 1 ms
+2024-11-08 21:38:29 - Received order for discount :O1001
+2024-11-08 21:39:15 - Received order for discount :O1001
+2024-11-08 21:43:58 - Received order for discount :O1001
+2024-11-08 21:44:16 - Received order for discount :O1001
+2024-11-08 21:55:09 - Starting PromotionServiceApplication using Java 17.0.12 with PID 25140 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 21:55:09 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 21:55:09 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 21:55:09 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 21:55:11 - Tomcat initialized with port 9001 (http)
+2024-11-08 21:55:11 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:55:11 - Starting service [Tomcat]
+2024-11-08 21:55:11 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 21:55:11 - Initializing Spring embedded WebApplicationContext
+2024-11-08 21:55:11 - Root WebApplicationContext: initialization completed in 2383 ms
+2024-11-08 21:55:12 - LiveReload server is running on port 35729
+2024-11-08 21:55:12 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:55:12 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 21:55:12 - Started PromotionServiceApplication in 3.973 seconds (process running for 4.778)
+2024-11-08 21:55:15 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 21:55:15 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 21:55:15 - Completed initialization in 2 ms
+2024-11-08 21:55:15 - Received order for discount :O1001
+2024-11-08 21:55:53 - Starting PromotionServiceApplication using Java 17.0.12 with PID 4192 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 21:55:53 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 21:55:53 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 21:55:53 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 21:55:55 - Tomcat initialized with port 9001 (http)
+2024-11-08 21:55:55 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:55:55 - Starting service [Tomcat]
+2024-11-08 21:55:55 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 21:55:55 - Initializing Spring embedded WebApplicationContext
+2024-11-08 21:55:55 - Root WebApplicationContext: initialization completed in 2274 ms
+2024-11-08 21:55:56 - LiveReload server is running on port 35729
+2024-11-08 21:55:56 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:55:56 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 21:55:56 - Started PromotionServiceApplication in 3.751 seconds (process running for 4.542)
+2024-11-08 21:56:03 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 21:56:03 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 21:56:03 - Completed initialization in 1 ms
+2024-11-08 21:56:03 - Received order for discount :O1001
+2024-11-08 21:56:33 - Received order for discount :O1001
+2024-11-08 21:57:59 - Starting PromotionServiceApplication using Java 17.0.12 with PID 13992 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 21:57:59 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 21:57:59 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 21:57:59 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 21:58:01 - Tomcat initialized with port 9001 (http)
+2024-11-08 21:58:01 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:58:01 - Starting service [Tomcat]
+2024-11-08 21:58:01 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 21:58:01 - Initializing Spring embedded WebApplicationContext
+2024-11-08 21:58:01 - Root WebApplicationContext: initialization completed in 2074 ms
+2024-11-08 21:58:02 - LiveReload server is running on port 35729
+2024-11-08 21:58:02 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 21:58:02 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 21:58:02 - Started PromotionServiceApplication in 3.368 seconds (process running for 4.224)
+2024-11-08 21:58:22 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 21:58:22 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 21:58:22 - Completed initialization in 2 ms
+2024-11-08 21:58:23 - Received order for discount :O1001
+2024-11-08 21:58:52 - Received order for discount :O1001
+2024-11-08 21:59:03 - Received order for discount :O1001
+2024-11-08 21:59:27 - Received order for discount :O1001
+2024-11-08 22:00:18 - Received order for discount :O1001
+2024-11-08 22:10:25 - Starting PromotionServiceApplication using Java 17.0.12 with PID 21228 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:10:25 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:10:25 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 22:10:25 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 22:10:27 - Tomcat initialized with port 9001 (http)
+2024-11-08 22:10:27 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 22:10:27 - Starting service [Tomcat]
+2024-11-08 22:10:27 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 22:10:27 - Initializing Spring embedded WebApplicationContext
+2024-11-08 22:10:27 - Root WebApplicationContext: initialization completed in 2010 ms
+2024-11-08 22:10:28 - LiveReload server is running on port 35729
+2024-11-08 22:10:28 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 22:10:28 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 22:10:28 - Started PromotionServiceApplication in 3.49 seconds (process running for 4.425)
+2024-11-08 22:10:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-08 22:10:34 - Initializing Servlet 'dispatcherServlet'
+2024-11-08 22:10:34 - Completed initialization in 2 ms
+2024-11-08 22:10:34 - Received order for discount :O1001
+2024-11-08 22:16:47 - Starting PromotionServiceApplication using Java 17.0.12 with PID 22928 (C:\assessment\promotion-service\target\classes started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:16:47 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:16:47 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-11-08 22:16:47 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-11-08 22:16:49 - Tomcat initialized with port 9001 (http)
+2024-11-08 22:16:49 - Initializing ProtocolHandler ["http-nio-9001"]
+2024-11-08 22:16:49 - Starting service [Tomcat]
+2024-11-08 22:16:49 - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-08 22:16:49 - Initializing Spring embedded WebApplicationContext
+2024-11-08 22:16:49 - Root WebApplicationContext: initialization completed in 1922 ms
+2024-11-08 22:16:50 - LiveReload server is running on port 35729
+2024-11-08 22:16:50 - Starting ProtocolHandler ["http-nio-9001"]
+2024-11-08 22:16:50 - Tomcat started on port 9001 (http) with context path '/'
+2024-11-08 22:16:50 - Started PromotionServiceApplication in 3.273 seconds (process running for 4.135)
+2024-11-08 22:17:28 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:17:28 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:17:38 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:17:38 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:17:38 - Restart disabled due to context in which it is running
+2024-11-08 22:17:38 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 1928 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:17:38 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:17:40 - Started PromotionServiceApplicationTests in 2.103 seconds (process running for 3.778)
+2024-11-08 22:18:16 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:18:17 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:18:17 - Restart disabled due to context in which it is running
+2024-11-08 22:18:17 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 21020 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:18:17 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:18:19 - Started PromotionServiceApplicationTests in 2.239 seconds (process running for 3.903)
+2024-11-08 22:19:36 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:19:37 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:19:37 - Restart disabled due to context in which it is running
+2024-11-08 22:19:37 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 20912 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:19:37 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:19:39 - Started PromotionServiceApplicationTests in 2.283 seconds (process running for 3.921)
+2024-11-08 22:28:20 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:28:20 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:28:21 - Restart disabled due to context in which it is running
+2024-11-08 22:28:21 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 4020 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:28:21 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:32:56 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:32:56 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:32:57 - Restart disabled due to context in which it is running
+2024-11-08 22:32:57 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 23548 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:32:57 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:32:59 - Started PromotionServiceApplicationTests in 2.246 seconds (process running for 3.897)
+2024-11-08 22:34:17 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:34:17 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:34:18 - Restart disabled due to context in which it is running
+2024-11-08 22:34:18 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 4348 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:34:18 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:34:20 - Started PromotionServiceApplicationTests in 2.177 seconds (process running for 3.975)
+2024-11-08 22:34:42 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:34:43 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:34:43 - Restart disabled due to context in which it is running
+2024-11-08 22:34:43 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 25352 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:34:43 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:34:45 - Started PromotionServiceApplicationTests in 2.363 seconds (process running for 3.87)
+2024-11-08 22:35:10 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:35:10 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:35:10 - Restart disabled due to context in which it is running
+2024-11-08 22:35:11 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 11284 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:35:11 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:35:13 - Started PromotionServiceApplicationTests in 2.254 seconds (process running for 3.825)
+2024-11-08 22:35:53 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:35:53 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:35:54 - Restart disabled due to context in which it is running
+2024-11-08 22:35:54 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 18192 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:35:54 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:35:56 - Started PromotionServiceApplicationTests in 2.206 seconds (process running for 3.887)
+2024-11-08 22:36:15 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:36:15 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:36:15 - Restart disabled due to context in which it is running
+2024-11-08 22:36:15 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 25864 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:36:15 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:36:17 - Started PromotionServiceApplicationTests in 2.343 seconds (process running for 3.974)
+2024-11-08 22:37:36 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:37:36 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:37:36 - Restart disabled due to context in which it is running
+2024-11-08 22:37:36 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 25208 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:37:36 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:37:39 - Started PromotionServiceApplicationTests in 2.831 seconds (process running for 4.536)
+2024-11-08 22:38:44 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:38:44 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:38:44 - Restart disabled due to context in which it is running
+2024-11-08 22:38:45 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 12968 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:38:45 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:38:47 - Started PromotionServiceApplicationTests in 2.456 seconds (process running for 4.256)
+2024-11-08 22:39:39 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:39:40 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:39:40 - Restart disabled due to context in which it is running
+2024-11-08 22:39:40 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 16968 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:39:40 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:39:42 - Started PromotionServiceApplicationTests in 2.219 seconds (process running for 3.797)
+2024-11-08 22:40:30 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:40:30 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:40:30 - Restart disabled due to context in which it is running
+2024-11-08 22:40:30 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 4860 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:40:30 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:40:32 - Started PromotionServiceApplicationTests in 2.144 seconds (process running for 3.812)
+2024-11-08 22:41:10 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:41:10 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:41:10 - Restart disabled due to context in which it is running
+2024-11-08 22:41:10 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 15092 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:41:10 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:41:12 - Started PromotionServiceApplicationTests in 2.183 seconds (process running for 3.778)
+2024-11-08 22:41:44 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:41:44 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:41:45 - Restart disabled due to context in which it is running
+2024-11-08 22:41:45 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 20168 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:41:45 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:41:47 - Started PromotionServiceApplicationTests in 2.129 seconds (process running for 3.844)
+2024-11-08 22:42:03 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:42:03 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:42:03 - Restart disabled due to context in which it is running
+2024-11-08 22:42:04 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 27556 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:42:04 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:42:05 - Started PromotionServiceApplicationTests in 2.198 seconds (process running for 3.786)
+2024-11-08 22:43:31 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:43:31 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:43:31 - Restart disabled due to context in which it is running
+2024-11-08 22:43:31 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 23896 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:43:31 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:43:33 - Started PromotionServiceApplicationTests in 2.273 seconds (process running for 3.847)
+2024-11-08 22:44:06 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:44:06 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:44:06 - Restart disabled due to context in which it is running
+2024-11-08 22:44:07 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 12212 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:44:07 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:44:09 - Started PromotionServiceApplicationTests in 2.147 seconds (process running for 3.783)
+2024-11-08 22:45:38 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:45:38 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:45:38 - Restart disabled due to context in which it is running
+2024-11-08 22:45:38 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 6012 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:45:38 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:45:40 - Started PromotionServiceApplicationTests in 2.272 seconds (process running for 3.891)
+2024-11-08 22:47:12 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:47:13 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:47:13 - Restart disabled due to context in which it is running
+2024-11-08 22:47:13 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 9272 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:47:13 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:47:15 - Started PromotionServiceApplicationTests in 2.085 seconds (process running for 3.681)
+2024-11-08 22:50:33 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:50:33 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:50:33 - Restart disabled due to context in which it is running
+2024-11-08 22:50:33 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 21784 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:50:33 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:50:35 - Started PromotionServiceApplicationTests in 2.214 seconds (process running for 3.796)
+2024-11-08 22:53:05 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:53:06 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:53:06 - Restart disabled due to context in which it is running
+2024-11-08 22:53:06 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 19288 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:53:06 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:53:08 - Started PromotionServiceApplicationTests in 2.261 seconds (process running for 6.387)
+2024-11-08 22:54:42 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 22:54:43 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 22:54:43 - Restart disabled due to context in which it is running
+2024-11-08 22:54:43 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 23276 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 22:54:43 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 22:54:45 - Started PromotionServiceApplicationTests in 2.32 seconds (process running for 3.84)
+2024-11-08 23:03:03 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 23:03:03 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 23:03:04 - Restart disabled due to context in which it is running
+2024-11-08 23:03:04 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 18820 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 23:03:04 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 23:03:06 - Started PromotionServiceApplicationTests in 2.268 seconds (process running for 3.917)
+2024-11-08 23:03:23 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 23:03:23 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 23:03:24 - Restart disabled due to context in which it is running
+2024-11-08 23:03:24 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 15872 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 23:03:24 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 23:03:26 - Started PromotionServiceApplicationTests in 2.176 seconds (process running for 3.763)
+2024-11-08 23:03:59 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 23:03:59 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 23:03:59 - Restart disabled due to context in which it is running
+2024-11-08 23:04:00 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 22376 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 23:04:00 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 23:04:02 - Started PromotionServiceApplicationTests in 2.302 seconds (process running for 4.054)
+2024-11-08 23:04:30 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 23:04:31 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 23:04:31 - Restart disabled due to context in which it is running
+2024-11-08 23:04:31 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 18404 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 23:04:31 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 23:04:33 - Started PromotionServiceApplicationTests in 2.338 seconds (process running for 3.961)
+2024-11-08 23:04:59 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 23:05:00 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 23:05:00 - Restart disabled due to context in which it is running
+2024-11-08 23:05:00 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 15252 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 23:05:00 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 23:05:02 - Started PromotionServiceApplicationTests in 2.05 seconds (process running for 3.789)
+2024-11-08 23:05:24 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 23:05:25 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 23:05:25 - Restart disabled due to context in which it is running
+2024-11-08 23:05:25 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 7904 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 23:05:25 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 23:05:27 - Started PromotionServiceApplicationTests in 2.238 seconds (process running for 3.962)
+2024-11-08 23:05:38 - Could not detect default configuration classes for test class [com.commerce.price.PromotionServiceApplicationTests]: PromotionServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-11-08 23:05:38 - Found @SpringBootConfiguration com.commerce.price.PromotionServiceApplication for test class com.commerce.price.PromotionServiceApplicationTests
+2024-11-08 23:05:38 - Restart disabled due to context in which it is running
+2024-11-08 23:05:39 - Starting PromotionServiceApplicationTests using Java 17.0.12 with PID 2524 (started by anuragchaudhary in C:\assessment\promotion-service)
+2024-11-08 23:05:39 - No active profile set, falling back to 1 default profile: "default"
+2024-11-08 23:05:41 - Started PromotionServiceApplicationTests in 2.28 seconds (process running for 4.14)

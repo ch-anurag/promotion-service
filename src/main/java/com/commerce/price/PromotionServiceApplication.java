@@ -1,4 +1,4 @@
-package com.commerce.promotion;
+package com.commerce.price;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

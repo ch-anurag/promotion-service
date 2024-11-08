@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Log level configuration -->
+    <property name="LOGS" value="logs" />
+
+    <!-- Console Appender (optional, for logging to console) -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- File Appender (for logging to a file) -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${LOGS}/app-log.log</file>  <!-- Logs will be stored in the "logs" directory -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>  <!-- Log pattern -->
+        </encoder>
+    </appender>
+
+    <!-- Root Logger (defines the logging level) -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="FILE" />
+    </root>
+
+    <!-- Custom Logger Configuration (optional) -->
+    <logger name="com.example" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE" />
+    </logger>
+
+</configuration>

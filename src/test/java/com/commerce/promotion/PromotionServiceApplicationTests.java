@@ -1,8 +1,10 @@
-package com.commerce.promotion;
+package com.commerce.price;
 
-import com.commerce.promotion.entity.*;
-import com.commerce.promotion.service.CommonService;
-import com.commerce.promotion.service.ItemDiscountCalculator;
+import com.commerce.price.entity.Customer;
+import com.commerce.price.entity.Order;
+import com.commerce.price.service.OrderDiscountService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -13,149 +15,275 @@ import org.junit.jupiter.api.Assertions;
 class PromotionServiceApplicationTests {
 
 	@Autowired
-	private ItemDiscountCalculator itemDiscountCalculator;
-
-	@Autowired
-	private CommonService commonService;
+	private OrderDiscountService orderDiscountService;
 
 	@Test
-	public void testRegularCustomerDiscount() {
-		Customer customer = new RegularCustomer("ankit",3);
-		Item item = new Item();
-		item.setItemId("111");
-		item.setCategory("accessories");
-		item.setTotalPrice(300.0);
-		ItemDiscount itemDiscount = itemDiscountCalculator.getDiscountedItemPrice(customer,item);
-		Assertions.assertEquals("111", itemDiscount.getItemId());
-		Assertions.assertEquals(300.0, itemDiscount.getItemTotalPrice());
-		Assertions.assertEquals(270.0, itemDiscount.getItemActualPrice());
-		Assertions.assertEquals(30.0, itemDiscount.getItemDiscount());
+	public void testRegularCustomerDiscount() throws JsonProcessingException {
+        String json = "{\n" +
+                "  \"orderId\": \"O1001\",\n" +
+                "  \"customerId\": \"222\",\n" +
+                "  \"items\": [\n" +
+                "    {\n" +
+                "      \"productId\": \"P123\",\n" +
+                "      \"productName\": \"Smartphone\",\n" +
+                "      \"quantity\": 2,\n" +
+                "      \"price\": 100.00,\n" +
+                "       \"category\": \"electronic\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"productId\": \"P456\",\n" +
+                "      \"productName\": \"Laptop\",\n" +
+                "      \"quantity\": 1,\n" +
+                "      \"price\": 100.00,\n" +
+                "      \"category\": \"electronic\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"totalAmount\": 200.00,\n" +
+                "  \"orderStatus\": \"Pending\",\n" +
+                "  \"orderDate\": \"2024-11-08\"\n" +
+                "}";
+        ObjectMapper objectMapper = new ObjectMapper();
+        Order order = objectMapper.readValue(json,Order.class);
+        Order discountOrder = orderDiscountService.calculateOrderDiscount(order);
+		Assertions.assertEquals(5.0, discountOrder.getOrderDiscount());
+        Assertions.assertEquals(185.0, discountOrder.getTotalAmountAfterDiscount());
+        Assertions.assertEquals(15.0, discountOrder.getTotalDiscount());
+        Assertions.assertEquals(200.0, discountOrder.getTotalAmount());
+        Assertions.assertEquals(5.0, discountOrder.getItems().get(0).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(0).getPrice());
+        Assertions.assertEquals(5.0, discountOrder.getItems().get(1).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(1).getPrice());
 	}
 
-	@Test
-	public void testStoreEmployeeDiscount() {
-		Customer customer = new StoreEmployee("amit",3);
-		Item item = new Item();
-		item.setItemId("222");
-		item.setCategory("accessories");
-		item.setTotalPrice(200.0);
-		ItemDiscount itemDiscount = itemDiscountCalculator.getDiscountedItemPrice(customer,item);
-		Assertions.assertEquals("222", itemDiscount.getItemId());
-		Assertions.assertEquals(200.0, itemDiscount.getItemTotalPrice());
-		Assertions.assertEquals(130.0, itemDiscount.getItemActualPrice());
-		Assertions.assertEquals(70.0, itemDiscount.getItemDiscount());
-	}
+    @Test
+    public void testStoreCustomerDiscount() throws JsonProcessingException {
+        String json = "{\n" +
+                "  \"orderId\": \"O1001\",\n" +
+                "  \"customerId\": \"333\",\n" +
+                "  \"items\": [\n" +
+                "    {\n" +
+                "      \"productId\": \"P123\",\n" +
+                "      \"productName\": \"Smartphone\",\n" +
+                "      \"quantity\": 2,\n" +
+                "      \"price\": 100.00,\n" +
+                "       \"category\": \"electronic\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"productId\": \"P456\",\n" +
+                "      \"productName\": \"Laptop\",\n" +
+                "      \"quantity\": 1,\n" +
+                "      \"price\": 100.00,\n" +
+                "      \"category\": \"electronic\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"totalAmount\": 200.00,\n" +
+                "  \"orderStatus\": \"Pending\",\n" +
+                "  \"orderDate\": \"2024-11-08\"\n" +
+                "}";
+        ObjectMapper objectMapper = new ObjectMapper();
+        Order order = objectMapper.readValue(json,Order.class);
+        Order discountOrder = orderDiscountService.calculateOrderDiscount(order);
+        Assertions.assertEquals(5.0, discountOrder.getOrderDiscount());
+        Assertions.assertEquals(175.0, discountOrder.getTotalAmountAfterDiscount());
+        Assertions.assertEquals(25.0, discountOrder.getTotalDiscount());
+        Assertions.assertEquals(200.0, discountOrder.getTotalAmount());
+        Assertions.assertEquals(10.0, discountOrder.getItems().get(0).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(0).getPrice());
+        Assertions.assertEquals(10.0, discountOrder.getItems().get(1).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(1).getPrice());
+    }
 
-	@Test
-	public void testStoreCustomerDiscount() {
-		Customer customer = new StoreCustomer("ankit",3);
-		Item item = new Item();
-		item.setItemId("111");
-		item.setCategory("accessories");
-		item.setTotalPrice(400.0);
-		ItemDiscount itemDiscount = itemDiscountCalculator.getDiscountedItemPrice(customer,item);
-		Assertions.assertEquals("111", itemDiscount.getItemId());
-		Assertions.assertEquals(400.0, itemDiscount.getItemTotalPrice());
-		Assertions.assertEquals(340, itemDiscount.getItemActualPrice());
-		Assertions.assertEquals(60.0, itemDiscount.getItemDiscount());
-	}
+    @Test
+    public void testStoreEmployeeDiscount() throws JsonProcessingException {
+        String json = "{\n" +
+                "  \"orderId\": \"O1001\",\n" +
+                "  \"customerId\": \"111\",\n" +
+                "  \"items\": [\n" +
+                "    {\n" +
+                "      \"productId\": \"P123\",\n" +
+                "      \"productName\": \"Smartphone\",\n" +
+                "      \"quantity\": 2,\n" +
+                "      \"price\": 100.00,\n" +
+                "       \"category\": \"electronic\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"productId\": \"P456\",\n" +
+                "      \"productName\": \"Laptop\",\n" +
+                "      \"quantity\": 1,\n" +
+                "      \"price\": 100.00,\n" +
+                "      \"category\": \"electronic\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"totalAmount\": 200.00,\n" +
+                "  \"orderStatus\": \"Pending\",\n" +
+                "  \"orderDate\": \"2024-11-08\"\n" +
+                "}";
+        ObjectMapper objectMapper = new ObjectMapper();
+        Order order = objectMapper.readValue(json,Order.class);
+        Order discountOrder = orderDiscountService.calculateOrderDiscount(order);
+        Assertions.assertEquals(5.0, discountOrder.getOrderDiscount());
+        Assertions.assertEquals(135.0, discountOrder.getTotalAmountAfterDiscount());
+        Assertions.assertEquals(65.0, discountOrder.getTotalDiscount());
+        Assertions.assertEquals(200.0, discountOrder.getTotalAmount());
+        Assertions.assertEquals(30.0, discountOrder.getItems().get(0).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(0).getPrice());
+        Assertions.assertEquals(30.0, discountOrder.getItems().get(1).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(1).getPrice());
+    }
 
-	@Test
-	public void testRegularCustomerGroceriesDiscount() {
-		Customer customer = new RegularCustomer("ankit",3);
-		Item item = new Item();
-		item.setItemId("111");
-		item.setCategory("groceries");
-		item.setName("butter");
-		item.setTotalPrice(200.0);
-		ItemDiscount itemDiscount = itemDiscountCalculator.getDiscountedItemPrice(customer,item);
-		Assertions.assertEquals("111", itemDiscount.getItemId());
-		Assertions.assertEquals(200.0, itemDiscount.getItemTotalPrice());
-		Assertions.assertEquals(190.0, itemDiscount.getItemActualPrice());
-		Assertions.assertEquals(10.0, itemDiscount.getItemDiscount());
-	}
+    @Test
+    public void testNonGroceryDiscount() throws JsonProcessingException {
+        String json = "{\n" +
+                "  \"orderId\": \"O1001\",\n" +
+                "  \"customerId\": \"333\",\n" +
+                "  \"items\": [\n" +
+                "    {\n" +
+                "      \"productId\": \"P123\",\n" +
+                "      \"productName\": \"Smartphone\",\n" +
+                "      \"quantity\": 2,\n" +
+                "      \"price\": 100.00,\n" +
+                "       \"category\": \"electronic\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"productId\": \"P456\",\n" +
+                "      \"productName\": \"Laptop\",\n" +
+                "      \"quantity\": 1,\n" +
+                "      \"price\": 100.00,\n" +
+                "      \"category\": \"electronic\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"totalAmount\": 200.00,\n" +
+                "  \"orderStatus\": \"Pending\",\n" +
+                "  \"orderDate\": \"2024-11-08\"\n" +
+                "}";
+        ObjectMapper objectMapper = new ObjectMapper();
+        Order order = objectMapper.readValue(json,Order.class);
+        Order discountOrder = orderDiscountService.calculateOrderDiscount(order);
+        Assertions.assertEquals(5.0, discountOrder.getOrderDiscount());
+        Assertions.assertEquals(175.0, discountOrder.getTotalAmountAfterDiscount());
+        Assertions.assertEquals(25.0, discountOrder.getTotalDiscount());
+        Assertions.assertEquals(200.0, discountOrder.getTotalAmount());
+        Assertions.assertEquals(10.0, discountOrder.getItems().get(0).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(0).getPrice());
+        Assertions.assertEquals(10.0, discountOrder.getItems().get(1).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(1).getPrice());
+    }
 
-	@Test
-	public void testStoreEmployeeGroceriesDiscount() {
-		Customer customer = new StoreEmployee("amit",3);
-		Item item = new Item();
-		item.setItemId("222");
-		item.setCategory("groceries");
-		item.setName("butter");
-		item.setTotalPrice(200.0);
-		ItemDiscount itemDiscount = itemDiscountCalculator.getDiscountedItemPrice(customer,item);
-		Assertions.assertEquals("222", itemDiscount.getItemId());
-		Assertions.assertEquals(200.0, itemDiscount.getItemTotalPrice());
-		Assertions.assertEquals(190.0, itemDiscount.getItemActualPrice());
-		Assertions.assertEquals(10.0, itemDiscount.getItemDiscount());
-	}
-
-	@Test
-	public void testStoreCustomerGroceriesDiscount() {
-		Customer customer = new StoreCustomer("ankit",3);
-		Item item = new Item();
-		item.setItemId("111");
-		item.setCategory("groceries");
-		item.setName("butter");
-		item.setTotalPrice(200.0);
-		ItemDiscount itemDiscount = itemDiscountCalculator.getDiscountedItemPrice(customer,item);
-		Assertions.assertEquals("111", itemDiscount.getItemId());
-		Assertions.assertEquals(200.0, itemDiscount.getItemTotalPrice());
-		Assertions.assertEquals(190, itemDiscount.getItemActualPrice());
-		Assertions.assertEquals(10.0, itemDiscount.getItemDiscount());
-	}
-
-
-	@Test
-	public void testRegularCustomerDurationDiscount() {
-		Customer customer = new RegularCustomer("ankit",1);
-		Item item = new Item();
-		item.setItemId("111");
-		item.setCategory("accessories");
-		item.setName("charger");
-		item.setTotalPrice(200.0);
-		ItemDiscount itemDiscount = itemDiscountCalculator.getDiscountedItemPrice(customer,item);
-		Assertions.assertEquals("111", itemDiscount.getItemId());
-		Assertions.assertEquals(200.0, itemDiscount.getItemTotalPrice());
-		Assertions.assertEquals(190.0, itemDiscount.getItemActualPrice());
-		Assertions.assertEquals(10.0, itemDiscount.getItemDiscount());
-	}
+    @Test
+    public void testSomeGroceryDiscount() throws JsonProcessingException {
+        String json = "{\n" +
+                "  \"orderId\": \"O1001\",\n" +
+                "  \"customerId\": \"333\",\n" +
+                "  \"items\": [\n" +
+                "    {\n" +
+                "      \"productId\": \"P123\",\n" +
+                "      \"productName\": \"Smartphone\",\n" +
+                "      \"quantity\": 2,\n" +
+                "      \"price\": 100.00,\n" +
+                "       \"category\": \"electronic\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"productId\": \"P456\",\n" +
+                "      \"productName\": \"Milk\",\n" +
+                "      \"quantity\": 1,\n" +
+                "      \"price\": 100.00,\n" +
+                "      \"category\": \"grocery\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"totalAmount\": 200.00,\n" +
+                "  \"orderStatus\": \"Pending\",\n" +
+                "  \"orderDate\": \"2024-11-08\"\n" +
+                "}";
+        ObjectMapper objectMapper = new ObjectMapper();
+        Order order = objectMapper.readValue(json,Order.class);
+        Order discountOrder = orderDiscountService.calculateOrderDiscount(order);
+        Assertions.assertEquals(5.0, discountOrder.getOrderDiscount());
+        Assertions.assertEquals(185.0, discountOrder.getTotalAmountAfterDiscount());
+        Assertions.assertEquals(15.0, discountOrder.getTotalDiscount());
+        Assertions.assertEquals(200.0, discountOrder.getTotalAmount());
+        Assertions.assertEquals(10.0, discountOrder.getItems().get(0).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(0).getPrice());
+        Assertions.assertEquals(0.0, discountOrder.getItems().get(1).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(1).getPrice());
+    }
 
 
-	@Test
-	public void testGetStoreEmployeeItem() {
-		Customer customer = commonService.getCustomerItem("111");
-		Assertions.assertEquals("ankit", customer.getName());
-		Assertions.assertEquals(1, customer.getDurationYears());
-		Assertions.assertEquals("com.commerce.promotion.entity.StoreEmployee", customer.getClass().getName());
+    @Test
+    public void testAllGroceryDiscount() throws JsonProcessingException {
+        String json = "{\n" +
+                "  \"orderId\": \"O1001\",\n" +
+                "  \"customerId\": \"333\",\n" +
+                "  \"items\": [\n" +
+                "    {\n" +
+                "      \"productId\": \"P123\",\n" +
+                "      \"productName\": \"bread\",\n" +
+                "      \"quantity\": 2,\n" +
+                "      \"price\": 100.00,\n" +
+                "       \"category\": \"grocery\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"productId\": \"P456\",\n" +
+                "      \"productName\": \"Milk\",\n" +
+                "      \"quantity\": 1,\n" +
+                "      \"price\": 100.00,\n" +
+                "      \"category\": \"grocery\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"totalAmount\": 200.00,\n" +
+                "  \"orderStatus\": \"Pending\",\n" +
+                "  \"orderDate\": \"2024-11-08\"\n" +
+                "}";
+        ObjectMapper objectMapper = new ObjectMapper();
+        Order order = objectMapper.readValue(json,Order.class);
+        Order discountOrder = orderDiscountService.calculateOrderDiscount(order);
+        Assertions.assertEquals(10.0, discountOrder.getOrderDiscount());
+        Assertions.assertEquals(190.0, discountOrder.getTotalAmountAfterDiscount());
+        Assertions.assertEquals(10.0, discountOrder.getTotalDiscount());
+        Assertions.assertEquals(200.0, discountOrder.getTotalAmount());
+        Assertions.assertEquals(0.0, discountOrder.getItems().get(0).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(0).getPrice());
+        Assertions.assertEquals(0.0, discountOrder.getItems().get(1).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(1).getPrice());
 
-	}
+    }
 
-	@Test
-	public void testGetRegularCustomerItem() {
-		Customer customer = commonService.getCustomerItem("222");
-		Assertions.assertEquals("amit", customer.getName());
-		Assertions.assertEquals(3, customer.getDurationYears());
-		Assertions.assertEquals("com.commerce.promotion.entity.RegularCustomer", customer.getClass().getName());
 
-	}
-
-	@Test
-	public void testGetStoreCustomerItem() {
-		Customer customer = commonService.getCustomerItem("333");
-		Assertions.assertEquals("aditya", customer.getName());
-		Assertions.assertEquals(3, customer.getDurationYears());
-		Assertions.assertEquals("com.commerce.promotion.entity.StoreCustomer", customer.getClass().getName());
-	}
-
-	@Test
-	public void testGetItem() {
-		Item item = commonService.getItem("111");
-		Assertions.assertEquals("111",item.getItemId());
-		Assertions.assertEquals(500.0, item.getTotalPrice());
-		Assertions.assertEquals("laptop", item.getName());
-		Assertions.assertEquals("electronic", item.getCategory());
-	}
-
+    @Test
+    public void testRegularCustomerNoDiscount() throws JsonProcessingException {
+        String json = "{\n" +
+                "  \"orderId\": \"O1001\",\n" +
+                "  \"customerId\": \"444\",\n" +
+                "  \"items\": [\n" +
+                "    {\n" +
+                "      \"productId\": \"P123\",\n" +
+                "      \"productName\": \"Smartphone\",\n" +
+                "      \"quantity\": 2,\n" +
+                "      \"price\": 100.00,\n" +
+                "       \"category\": \"electronic\"\n" +
+                "    },\n" +
+                "    {\n" +
+                "      \"productId\": \"P456\",\n" +
+                "      \"productName\": \"Laptop\",\n" +
+                "      \"quantity\": 1,\n" +
+                "      \"price\": 100.00,\n" +
+                "      \"category\": \"electronic\"\n" +
+                "    }\n" +
+                "  ],\n" +
+                "  \"totalAmount\": 200.00,\n" +
+                "  \"orderStatus\": \"Pending\",\n" +
+                "  \"orderDate\": \"2024-11-08\"\n" +
+                "}";
+        ObjectMapper objectMapper = new ObjectMapper();
+        Order order = objectMapper.readValue(json,Order.class);
+        Order discountOrder = orderDiscountService.calculateOrderDiscount(order);
+        Assertions.assertEquals(10.0, discountOrder.getOrderDiscount());
+        Assertions.assertEquals(190.0, discountOrder.getTotalAmountAfterDiscount());
+        Assertions.assertEquals(10.0, discountOrder.getTotalDiscount());
+        Assertions.assertEquals(200.0, discountOrder.getTotalAmount());
+        Assertions.assertEquals(0.0, discountOrder.getItems().get(0).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(0).getPrice());
+        Assertions.assertEquals(0.0, discountOrder.getItems().get(1).getDiscount());
+        Assertions.assertEquals(100.0, discountOrder.getItems().get(1).getPrice());
+    }
 
 }
